@@ -1,2 +1,2 @@
-public class Hobbit {
+public class Hobbit extends Character{
 }
