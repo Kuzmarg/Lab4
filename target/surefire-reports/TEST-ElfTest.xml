@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="2" name="ElfTest" time="0.109" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="ElfTest" time="0.112" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.2.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -62,16 +62,6 @@
     <property name="sun.stdout.encoding" value="UTF-8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ElfTest" name="ElfTest.testToString" time="0.003">
-    <failure message="Cannot invoke &quot;lotr.Character.toString()&quot; because &quot;this.character&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;lotr.Character.toString()&quot; because &quot;this.character&quot; is null
-	at ElfTest.testToString(ElfTest.java:18)
-</failure>
-  </testcase>
-  <testcase classname="ElfTest" name="ElfTest.testKick" time="0.106">
-    <failure message="Cannot invoke &quot;lotr.Character.kick(lotr.Character)&quot; because &quot;this.character&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;lotr.Character.kick(lotr.Character)&quot; because &quot;this.character&quot; is null
-	at ElfTest.testKick(ElfTest.java:24)
-</failure>
-    <system-err>[main] INFO org.reflections.Reflections - Reflections took 49 ms to scan 1 urls, producing 2 keys and 5 values
-</system-err>
-  </testcase>
+  <testcase classname="ElfTest" name="ElfTest.testKick" time="0.105"/>
+  <testcase classname="ElfTest" name="ElfTest.testToString" time="0.007"/>
 </testsuite>

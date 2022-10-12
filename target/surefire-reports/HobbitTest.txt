@@ -1,20 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: HobbitTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-HobbitTest.testToString()  Time elapsed: 0 sec  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "lotr.Hobbit.toString()" because "this.character" is null
-	at HobbitTest.testToString(HobbitTest.java:18)
-
-HobbitTest.testIsClass()  Time elapsed: 0 sec  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:179)
-	at HobbitTest.testIsClass(HobbitTest.java:23)
-
-HobbitTest.testSetHp()  Time elapsed: 0 sec  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "lotr.Hobbit.setHp(int)" because "this.character" is null
-	at HobbitTest.testSetHp(HobbitTest.java:28)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec

@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: ElfTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.11 sec <<< FAILURE!
-ElfTest.testToString()  Time elapsed: 0.003 sec  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "lotr.Character.toString()" because "this.character" is null
-	at ElfTest.testToString(ElfTest.java:18)
-
-ElfTest.testKick()  Time elapsed: 0.106 sec  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "lotr.Character.kick(lotr.Character)" because "this.character" is null
-	at ElfTest.testKick(ElfTest.java:24)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 sec
