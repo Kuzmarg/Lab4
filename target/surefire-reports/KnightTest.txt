@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: KnightTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+KnightTest.testHp()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "lotr.Character.getHp()" because "this.character" is null
+	at KnightTest.testHp(KnightTest.java:23)
+
+KnightTest.testPower()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "lotr.Character.getPower()" because "this.character" is null
+	at KnightTest.testPower(KnightTest.java:28)
+
+KnightTest.testIsClass()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:179)
+	at KnightTest.testIsClass(KnightTest.java:18)
+
