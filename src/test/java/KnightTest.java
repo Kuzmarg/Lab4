@@ -1,3 +1,5 @@
+import lotr.Character;
+import lotr.Knight;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
